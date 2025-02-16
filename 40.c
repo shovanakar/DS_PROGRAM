@@ -1,0 +1,11 @@
+//C Program to Print 180 Rotation of Simple Pyramid
+#include <stdio.h>
+
+int main() {
+    int n = 5;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n - i; j++)
+            printf("* ");
+        printf("\n");
+    }
+}
